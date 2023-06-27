@@ -8,18 +8,20 @@
     Ramirez Sarmiento, Joseph Rafael
     Camargo Ramírez, Enzo Fabricio
 # Breve descripcion del conjunto de datos
-    ID: El identificador del comprador.
-    Marital Status: El estado civil del comprador, puede ser casado(‘married’) o soltero(‘single’).
-    Gender: El género del comprador, puede ser hombre(‘male’) o mujer(‘female’).
-    Income: Los ingresos del comprador en un determinado tiempo.
-    Children: El número de hijos que tiene el comprador.
-    Education: La formación educativa del comprador.
-    Occupation: El trabajo o ocupación del comprador.
-    Home Owner: Si el comprador tiene o no una casa propia.
-    Cars: Número de carros del comprador.
-    Commute Distance: La distancia entre la residencia y la empresa del comprador.
-    Region: Determina la región donde vive el comprador.
-    Purchased Bike: Si el comprador adquirió la bicicleta o no.
+   | Columna | Descripcion |
+   | ------- | ----------- |
+   | ID: | El identificador del comprador. |
+   | Marital Status: | El estado civil del comprador, puede ser casado(‘married’) o soltero(‘single’). |
+   | Gender: | El género del comprador, puede ser hombre(‘male’) o mujer(‘female’). |
+   | Income: | Los ingresos del comprador en un determinado tiempo. |
+   | Children: | El número de hijos que tiene el comprador. |
+   | Education: | La formación educativa del comprador. |
+   | Occupation: | El trabajo o ocupación del comprador. |
+   | Home Owner: | Si el comprador tiene o no una casa propia. |
+   | Cars: | Número de carros del comprador. |
+   | Commute Distance: | La distancia entre la residencia y la empresa del comprador. |
+   | Region: | Determina la región donde vive el comprador. |
+   | Purchased Bike: | Si el comprador adquirió la bicicleta o no. |
 # Concluciones 
 * Variables como Income resultaron dar más valor cuando se aplica un suavizado por logaritmo natural; sin embargo, esto compromete parte de  la precisión sobre valores atípicos.
 * Las variables Income y Age son constantemente las más relevantes para el modelo de predicción.
