@@ -28,3 +28,4 @@
 * Para el tratamiento eficaz de los datos atípicos se requiere tomar en cuenta las prioridades de la empresa, políticas empresa, para determinar si la precisión respecto a esos casos es más importante que la efectividad general del modelo de predicción.
 * El aplicar técnicas de suavizado que modifica severamente la distribución de una variable conlleva reducir el ROC del modelo final. 
 * Observamos que en el modelo hemos tenido un resultados de ROC por debajo del 70% dando entender que se debería mejorar las transformaciones o crear columnas nuevas en caso contrario una menor selección de columnas
+* Se dará prioridad a la atención de los clientes de los grupos 1 y 2, ya que tiene una tendencia a completar la compra de una bicicleta, seguido de los grupos 3 al 7 como los clientes comunes y finalmente los clientes desestimados del 8 hasta el 10.
